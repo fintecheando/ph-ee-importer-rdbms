@@ -1,11 +1,12 @@
-package hu.dpc.phee.operator.importer;
+package org.apache.fineract.operator.importer;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.Option;
 import com.jayway.jsonpath.ParseContext;
-import hu.dpc.phee.operator.entity.task.Task;
+
+import org.apache.fineract.paymenthub.importer.entity.task.Task;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;

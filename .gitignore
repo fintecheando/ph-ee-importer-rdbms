@@ -9,5 +9,10 @@ bin/
 .gradle
 .gradle/
 build
-.DS_Store
 createDDL.jdbc
+src/generated
+.DS_Store
+.vscode
+**/*_.java
+libs/
+env
